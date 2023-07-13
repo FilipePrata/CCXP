@@ -1,0 +1,42 @@
+#purple {
+    background-color: #514988;
+}
+
+#timer h1,p{
+    color: #514988;
+}
+
+#count h4 {
+    color: #E33881;
+}
+
+#title {
+    font-size: 50px;
+}
+
+#count {
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+button {
+    width: 70%;
+    height: 40%;
+    background: #514988;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+button:hover {
+    color: rgb(206, 206, 85);
+}
+
+#botao {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
