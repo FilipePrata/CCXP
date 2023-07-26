@@ -40,3 +40,9 @@ button:hover {
     align-items: center;
 }
 
+.highlighted {
+    box-shadow: 3.5px 7px #6c6e6c1f;
+    transform: translateY(-5px);
+    transition-duration: 0.5s;
+}
+
