@@ -78,14 +78,14 @@
                     <h4 class="text-warning">AINDA DÁ TEMPO DE GARANTIR O SEU, MAS CORRE!</h4>
                 </div>
                 <div class="d-flex justify-content-around">
-                    <img width="200px" id="thursday" onmouseenter="addStyle(id)" onmouseleave="addStyle(id)" src="./img/quinta.svg">
-                    <img width="200px" id="friday" onmouseenter="addStyle(id)" onmouseleave="addStyle(id)" src="./img/sexta.svg">
-                    <img width="200px" id="saturday" onmouseenter="addStyle(id)" onmouseleave="addStyle(id)" src="./img/sabado.svg">
-                    <img width="200px" id="sunday" onmouseenter="addStyle(id)" onmouseleave="addStyle(id)" src="./img/domingo.svg">
+                    <img width="200px" id="thursday" onclick="select(id)" onmouseenter="addStyle(id)" onmouseleave="addStyle(id)" src="./img/quinta.svg">
+                    <img width="200px" id="friday" onclick="select(id)" onmouseenter="addStyle(id)" onmouseleave="addStyle(id)" src="./img/sexta.svg">
+                    <img width="200px" id="saturday" onclick="select(id)" onmouseenter="addStyle(id)" onmouseleave="addStyle(id)" src="./img/sabado.svg">
+                    <img width="200px" id="sunday" onclick="select(id)" onmouseenter="addStyle(id)" onmouseleave="addStyle(id)" src="./img/domingo.svg">
                 </div>
             </div>
             <div id="botao" class="col justify-content-center">
-                <button type="button"> <b>GARANTA O SEU!</b> </button>
+                <button type="button" onclick="showSelectedTickets()"> <b>GARANTA O SEU!</b> </button>
             </div>
         </div>
       </div>
